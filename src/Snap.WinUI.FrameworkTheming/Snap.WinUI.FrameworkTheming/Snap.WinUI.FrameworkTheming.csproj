@@ -6,5 +6,6 @@
         <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
         <IsPackable>true</IsPackable>
         <NuSpecFile>Snap.WinUI.FrameworkTheming.nuspec</NuSpecFile>
+        <Platforms>x64</Platforms>
     </PropertyGroup>
 </Project>
