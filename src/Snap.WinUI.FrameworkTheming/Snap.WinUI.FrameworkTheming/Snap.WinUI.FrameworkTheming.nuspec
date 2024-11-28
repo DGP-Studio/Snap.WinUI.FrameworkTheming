@@ -17,6 +17,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin/Release/net8.0/Snap.WinUI.FrameworkTheming.dll" target="lib/net8.0/Snap.WinUI.FrameworkTheming.dll"/>
+    <file src="bin/x64/Release/net8.0/Snap.WinUI.FrameworkTheming.dll" target="lib/net8.0/Snap.WinUI.FrameworkTheming.dll"/>
   </files>
 </package>
