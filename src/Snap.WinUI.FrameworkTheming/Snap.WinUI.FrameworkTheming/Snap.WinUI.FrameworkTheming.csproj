@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+        <IsPackable>true</IsPackable>
+        <NuSpecFile>Snap.WinUI.FrameworkTheming.nuspec</NuSpecFile>
+    </PropertyGroup>
+</Project>
