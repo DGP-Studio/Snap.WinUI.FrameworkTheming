@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Snap.WinUI.FrameworkTheming</id>
-    <version>1.6.250108002</version>
+    <version>1.6.250205002</version>
     <authors>DGP Studio</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
