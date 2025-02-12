@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Snap.WinUI.FrameworkTheming</id>
-    <version>1.6.250205002</version>
+    <version>1.7.250127003-experimental3</version>
     <authors>DGP Studio</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
@@ -12,7 +12,7 @@
     <repository type="git" url="https://github.com/DGP-Studio/Snap.WinUI.FrameworkTheming" commit="$commit$" />
     <dependencies>
       <group targetFramework="net8.0">
-        <dependency id="Microsoft.WindowsAppSDK" version="[1.6.250205002]" />
+        <dependency id="Microsoft.WindowsAppSDK" version="[1.7.250127003-experimental3]" />
       </group>
     </dependencies>
   </metadata>
