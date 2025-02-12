@@ -11,11 +11,11 @@ public static unsafe partial class FrameworkTheming
 
     // DXamlInstanceStorage::GetValue(void** phValue)
     // _Check_return_ HRESULT GetValue(_Outptr_result_maybenull_ Handle* phValue)
-    private static readonly delegate* unmanaged[Stdcall]<DXamlCoreAbi**, int> pDXamlInstanceStorageGetValue = (delegate* unmanaged[Stdcall]<DXamlCoreAbi**, int>)(mux + 0x5EE96C);
+    private static readonly delegate* unmanaged[Stdcall]<DXamlCoreAbi**, int> pDXamlInstanceStorageGetValue = (delegate* unmanaged[Stdcall]<DXamlCoreAbi**, int>)(mux + 0x5EF63C);
 
     // FrameworkTheming::OnThemeChanged(FrameworkTheming* this, bool forceUpdate)
     // _Check_return_ HRESULT OnThemeChanged(bool forceUpdate = false)
-    private static readonly delegate* unmanaged[Stdcall]<FrameworkThemingAbi*, bool, int> pFrameworkThemingOnThemeChanged = (delegate* unmanaged[Stdcall]<FrameworkThemingAbi*, bool, int>)(mux + 0x8D5040);
+    private static readonly delegate* unmanaged[Stdcall]<FrameworkThemingAbi*, bool, int> pFrameworkThemingOnThemeChanged = (delegate* unmanaged[Stdcall]<FrameworkThemingAbi*, bool, int>)(mux + 0x8D6E90);
 
     public static void SetTheme(Theme theme)
     {
